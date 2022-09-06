@@ -18,6 +18,13 @@ namespace ShootingDice
 
             Console.WriteLine("-------------------");
 
+            OneHigherPlayer higherPlayer = new OneHigherPlayer();
+            higherPlayer.Name = "Billy";
+
+            higherPlayer.Play(player1);
+
+            Console.WriteLine("-------------------");
+
             Player player3 = new Player();
             player3.Name = "Wilma";
 
