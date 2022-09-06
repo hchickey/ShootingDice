@@ -62,6 +62,12 @@ namespace ShootingDice
             soreLoser.Name = "Ben";
             soreLoser.Play(player2);
 
+            Console.WriteLine("-------------------");
+
+            UpperHalfPlayer upperHalf = new UpperHalfPlayer();
+            upperHalf.Name = "Lucky";
+            upperHalf.Play(player1);
+
             List<Player> players = new List<Player>() {
                 player1, player2, player3, large
             };
